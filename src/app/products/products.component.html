@@ -1,0 +1,6 @@
+<h2>Products</h2>
+<label for="product">Product Name:</label>
+<input type="text" name="product" id="123456" class="form-control" (input)="onUpdateProductName($event)">
+<button class="btn btn-secondary" [disabled]="!addProduct" (click)="onClick()">button</button>
+<p>{{addProductStus}}</p>
+<br><br>
